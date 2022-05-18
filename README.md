@@ -1,6 +1,4 @@
- Happy Coding  👨🏾‍💻👨🏾‍💻👨🏾‍💻😄😀👨🏾‍💻 🤗
-
-# Magnolia-CLIs 
+# Magnolia-CLIs  Happy Coding  👨🏾‍💻👨🏾‍💻👨🏾‍💻😄😀👨🏾‍💻 🤗
 
 ----MAGNOLIA UTILS
 
@@ -39,3 +37,6 @@ To create component into a component(eg. Footer)  use @
 ----------------  mgnl create-component mainFooter  -a pages/my-single@pages  
 
 This creates area (mainfooter) into footer component
+
+
+================ I just added this  ====================================
