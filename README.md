@@ -38,5 +38,24 @@ To create component into a component(eg. Footer)  use @
 
 This creates area (mainfooter) into footer component
 
+========================================================================
+-------------------------Cors--------------------------------------------
+Note: The downladable configurations text file should be converted to a yaml file before uploading.
+Kindly ensure to save the configuration as a yaml file before uploading.
 
-================ I just added this  ====================================
+================ Sample fetch for pages  ====================================
+Test for the cross platform configuration in the browser 
+async function getPage(url) {
+  try{
+    let response = await fetch(url);
+      const result =  await response.json();
+      console.log(result);
+  }catch(err){
+    console.error(err);
+    // Handle errors here
+  }
+}
+
+getPage('http://localhost:8080/magnoliaAuthor/.rest/pages');
+
+======================================================================
