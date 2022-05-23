@@ -68,3 +68,17 @@ Sample solution:
 import parser from "react-router-parser"
 	
 const Text = () => <div> {parser(element)} </div>;
+
+
+============================ image upload ============================
+
+>>>>>>>>>> to upload from jcr only without editting: Use this <<<<<<<<<<<<<<<<<<<<<<
+
+   label: Select image
+   $type: linkField
+   chooser:
+    workbenchChooser:
+     appName: dam-chooser
+>>>>>>>>>> to upload from jcr and local disk  with editting: Use this <<<<<<<<<<<<<<<<<<<<<<
+      label: Select image
+      $type: damLinkField
