@@ -58,4 +58,13 @@ async function getPage(url) {
 
 getPage('http://localhost:8080/magnoliaAuthor/.rest/pages');
 
-======================================================================
+============================ <Tag> <Tag/>  rendering alongside content ===================================
+When fetching pages or components you would realize that Magnolia stores tags with it's contents in the JCR. To avoid rendering the tags to your views:
+- add "html-react-parser" package to your project.
+- Import the added package.
+- Wrap the  tags with it's content with your import.
+
+Sample solution:
+import parser from "react-router-parser"
+	
+const Text = () => <div> {parser(element)} </div>;
